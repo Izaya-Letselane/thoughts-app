@@ -10,14 +10,14 @@ const Navbar = ({openNav}) => {
   navigate("/");
 };
   return (
-    <nav data-aos="fade-right" className="flex bg-rose-700 items-center justify-between p-2 text-white w-full fixed z-[1000]">
+    <nav data-aos="fade-right" className="flex bg-rose-700 items-center justify-between p-2 text-white w-full fixed z-1000">
       <div className="">
         <Link className="flex items-center font-serif font-bold" to="/">
           <BrainIcon className="h-8 w-8" />
           <span className=" hidden md:block">Thoughts</span>
         </Link>
       </div>
-      <div className="flex gap-4 items-center hidden md:block" >
+      <div className="flex gap-4 items-center  md:block" >
         <ul className="flex items-center gap-4">
           <li>
             <Link to={"/"} className="hover:text-rose-400 md:font-bold ">Home</Link>

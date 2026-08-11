@@ -13,6 +13,7 @@ export const useUserStore = create((set, get) => ({
     if (password !== confirmPassword) {
       set({ loading: false });
       toast.error("Passwords do not match");
+      return;
     }
 
     try {

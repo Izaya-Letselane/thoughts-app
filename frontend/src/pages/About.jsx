@@ -10,7 +10,7 @@ const About = () => {
             
             About Us
           </p>
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl text-rose-700">
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-rose-700">
             
             A place for your thoughts, memories, and everyday moments.{" "}
           </h1>
@@ -54,7 +54,7 @@ const About = () => {
               experiences.
             </p>
           </div>
-          <div className="bg-rose-500 text-white rounded-2xl border border-rose-100 bg-rose-50 p-6 text-center">
+          <div className="bg-rose-500 text-white rounded-2xl border border-rose-100 p-6 text-center">
             
             <h2 className="text-xl font-semibold text-amber-50">
               
